@@ -3,7 +3,7 @@
 	"id": "simongymer-winservices",
 	"name": "Windows Services Tasks",
 	"description": "Toolbox of tasks to manage windows services",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"publisher": "simon-gymer",
 	"public": true,
 	"baseUri": "https://github.com/simongymer/",

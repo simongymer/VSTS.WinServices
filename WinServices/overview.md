@@ -1,5 +1,5 @@
-# Windows Services Toolbox (VSTS task)
-Toolbox of tasks to manage windows services.
+# Windows Services Tasks
+A toolbox of tasks to manage windows services.
 
 ### Details
 
