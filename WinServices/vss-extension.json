@@ -3,7 +3,7 @@
 	"id": "simongymer-winservices",
 	"name": "Windows Services Tasks",
 	"description": "Toolbox of tasks to manage windows services",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "simon-gymer",
 	"public": true,
 	"baseUri": "https://github.com/simongymer/",
@@ -33,14 +33,11 @@
 	"screenshots": [
 		{
 			"path": "screenshot-01.jpg"
-		},
-		{
-			"path": "screenshot-02.jpg"
 		}
 
 	],
 	"branding": {
-		"color": "rgb(157, 140, 255)",
+		"color": "rgb(211, 224, 235)",
 		"theme": "light"
 	},
 	"targets": [
