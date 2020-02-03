@@ -3,7 +3,7 @@
 	"name": "RemoveWindowsService",
 	"friendlyName": "Windows Service - Remove",
 	"description": "Removes a windows service",
-	"author": "Jungerius IT",
+	"author": "Simon Gymer",
 	"helpMarkDown": "",
 	"category": "Deploy",
 	"visibility": ["Release"],
@@ -32,7 +32,7 @@
 		"helpMarkDown": "Name of the Windows Service to remove."
 	}],
 	"execution": {
-		"PowerShell": {
+		"PowerShell3": {
 			"target": "$(currentDirectory)\\removeservice.ps1",
 			"argumentFormat": "",
 			"workingDirectory": "$(currentDirectory)"

@@ -1,10 +1,6 @@
 # Windows Services Toolbox (VSTS task)
 Toolbox of tasks to manage windows services.
 
-Are these VSTS extensions helping you? 
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BSMTZP9VKP8QN)
-
 ### Details
 
 With these tasks you will have a toolbox to manage the windows services on the target machine.

@@ -3,7 +3,7 @@
 	"name": "CreateWindowsService",
 	"friendlyName": "Windows Service - Create",
 	"description": "Create a windows service",
-	"author": "Jungerius IT",
+	"author": "Simon Gymer",
 	"helpMarkDown": "",
 	"category": "Deploy",
 	"visibility": ["Release"],
@@ -94,7 +94,7 @@
 		"helpMarkDown": "The password of the user running the service."
 	}],
 	"execution": {
-		"PowerShell": {
+		"PowerShell3": {
 			"target": "$(currentDirectory)\\createservice.ps1",
 			"argumentFormat": "",
 			"workingDirectory": "$(currentDirectory)"
