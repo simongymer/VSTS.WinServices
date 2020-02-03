@@ -1,7 +1,7 @@
 {
 	"manifestVersion": 1,
 	"id": "simongymer-winservices",
-	"name": "Windows Services Toolbox",
+	"name": "Windows Services Tasks",
 	"description": "Toolbox of tasks to manage windows services",
 	"version": "1.0.0",
 	"publisher": "simon-gymer",
@@ -49,7 +49,7 @@
 		}
 	],
 	"categories": [
-		"Build and release"
+		"Azure Pipelines"
 	],
 	"icons": {
 		"default": "img/logo.png"
