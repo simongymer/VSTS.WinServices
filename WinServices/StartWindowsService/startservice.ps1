@@ -1,10 +1,7 @@
-param (
-    [string]$serviceName
-)
+[CmdletBinding()]
+Param()
 
-# Import the Task.Common dll that has all the cmdlets we need for Build
-import-module "Microsoft.TeamFoundation.DistributedTask.Task.Common"
-
+[string]$serviceName = Get-VstsInput -Name serviceName -Require
 
 Write-Output "Starting $serviceName..."
 

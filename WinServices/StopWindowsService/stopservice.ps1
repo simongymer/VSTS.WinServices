@@ -1,6 +1,7 @@
-param (
-    [string]$serviceName
-)
+[CmdletBinding()]
+Param()
+
+[string]$serviceName = Get-VstsInput -Name serviceName -Require
 
 Write-Output "Stopping $serviceName..."
 

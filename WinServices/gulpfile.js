@@ -57,8 +57,6 @@ gulp.task('updateVersionInMainJson', () => {
 gulp.task('updateVersionInTasks', () => {
 
     return gulp.src([
-        './CreateWindowsService/task.json',
-        './RemoveWindowsService/task.json',
         './StartWindowsService/task.json',
         './StopWindowsService/task.json'
     ], { base: './' })

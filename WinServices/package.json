@@ -1,7 +1,7 @@
 {
-  "id": "simongymer-winservices",
+  "id": "winservices",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.4.0",
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-bump": "^3.1.1",

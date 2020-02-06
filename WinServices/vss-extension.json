@@ -1,11 +1,11 @@
 {
 	"manifestVersion": 1,
-	"id": "simongymer-winservices",
+	"id": "winservices",
 	"name": "Windows Services Tasks",
 	"description": "Toolbox of tasks to manage windows services",
-	"version": "1.0.3",
-	"publisher": "simon-gymer",
-	"public": true,
+	"version": "1.4.0",
+	"publisher": "speakerbus",
+	"public": false,
 	"baseUri": "https://github.com/simongymer/",
 	"scopes": [],
 	"tags": [
@@ -34,7 +34,6 @@
 		{
 			"path": "screenshot-01.jpg"
 		}
-
 	],
 	"branding": {
 		"color": "rgb(211, 224, 235)",
@@ -52,7 +51,6 @@
 		"default": "img/logo.png"
 	},
 	"files": [
-		{ "path": "CreateWindowsService" },
 		{ "path": "StartWindowsService" },
 		{ "path": "StopWindowsService" }
 	],
@@ -64,19 +62,9 @@
 			"path": "license.md"
 		}
 	},
-	"contributions": [
+	"contributions": [		
 		{
-			"id": "simongymer-createwinservice",
-			"type": "ms.vss-distributed-task.task",
-			"targets": [
-				"ms.vss-distributed-task.tasks"
-			],
-			"properties": {
-				"name": "CreateWindowsService"
-			}
-		},
-		{
-			"id": "simongymer-startwinservice",
+			"id": "startwinservice",
 			"type": "ms.vss-distributed-task.task",
 			"targets": [
 				"ms.vss-distributed-task.tasks"
@@ -86,7 +74,7 @@
 			}
 		},
 		{
-			"id": "simongymer-stopwinservice",
+			"id": "stopwinservice",
 			"type": "ms.vss-distributed-task.task",
 			"targets": [
 				"ms.vss-distributed-task.tasks"

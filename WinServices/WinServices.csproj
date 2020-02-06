@@ -43,19 +43,44 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="gulpfile.js" />
-    <Content Include="RemoveWindowsService\icon.png" />
-    <Content Include="CreateWindowsService\createservice.ps1" />
-    <Content Include="CreateWindowsService\task.json" />
-    <Content Include="RemoveWindowsService\removeservice.ps1" />
-    <Content Include="RemoveWindowsService\task.json" />
     <None Include="license.md" />
     <None Include="package.json" />
     <Content Include="screenshot-01.jpg" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\Minimatch.dll" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\VstsTaskSdk.dll" />
     <Content Include="StartWindowsService\startservice.ps1" />
     <Content Include="StartWindowsService\task.json" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\Minimatch.dll" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\VstsTaskSdk.dll" />
     <Content Include="StopWindowsService\stopservice.ps1" />
     <Content Include="StopWindowsService\task.json" />
     <Content Include="overview.md" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\FindFunctions.ps1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\InputFunctions.ps1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\LegacyFindFunctions.ps1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\lib.json" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\LocalizationFunctions.ps1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\LoggingCommandFunctions.ps1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\LongPathFunctions.ps1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\OutFunctions.ps1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\ServerOMFunctions.ps1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\ToolFunctions.ps1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\TraceFunctions.ps1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1" />
+    <Content Include="StartWindowsService\ps_modules\VstsTaskSdk\VstsTaskSdk.psm1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\FindFunctions.ps1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\InputFunctions.ps1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\LegacyFindFunctions.ps1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\lib.json" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\LocalizationFunctions.ps1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\LoggingCommandFunctions.ps1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\LongPathFunctions.ps1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\OutFunctions.ps1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\ServerOMFunctions.ps1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\ToolFunctions.ps1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\TraceFunctions.ps1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1" />
+    <Content Include="StopWindowsService\ps_modules\VstsTaskSdk\VstsTaskSdk.psm1" />
     <None Include="vss-extension.json" />
     <None Include="img\logo.png" />
     <None Include="settings.tfx.json" />
@@ -65,9 +90,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".vscode\tasks.json" />
-    <Content Include="CreateWindowsService\icon.png" />
     <Content Include="StartWindowsService\icon.png" />
     <Content Include="StopWindowsService\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="StartWindowsService\ps_modules\VstsTaskSdk\Strings\" />
+    <Folder Include="StopWindowsService\ps_modules\VstsTaskSdk\Strings\" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
